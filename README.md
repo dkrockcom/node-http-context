@@ -7,7 +7,7 @@ Install: `npm install --save node-http-context`
 
 ``` js
 const express = require('express');
-const httpContext = require('node-http-context');
+const HttpContext = require('node-http-context');
 
 const app = express();
 // Initialize Httpcontext middleware service
@@ -18,20 +18,20 @@ HttpContext.Initilize(app);
 Get HttpContext form anywhare:
 
 ``` js
-const httpContext = require('node-http-context');
+const HttpContext = require('node-http-context');
 
 //Node express request object from HttpContext
-httpContext.Request;
+HttpContext.Request;
 
 //Node express response object from HttpContext
-httpContext.Response.send(HTML/STRING);
-httpContext.Response.json({JSON_Object});
+HttpContext.Response.send(HTML/STRING);
+HttpContext.Response.json({JSON_Object});
 
 //Node express Next object from HttpContext
-httpContext.Next();
+HttpContext.Next();
 
 //Node express session object from HttpContext
-httpContext.Session;
+HttpContext.Session;
 ```
 
 ## Contributors
