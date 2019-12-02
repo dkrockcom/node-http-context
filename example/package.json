@@ -1,0 +1,15 @@
+{
+  "name": "node-http-context-example",
+  "version": "1.0.0",
+  "description": "Node Http Context example",
+  "main": "indexjs ",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Devesh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-http-context": "^1.0.0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "node-http-context",
+  "version": "1.0.0",
+  "description": "Get HttpContext from anywhere",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dkrockcom/node-http-context.git"
+  },
+  "keywords": [
+    "HttpContext",
+    "Request",
+    "Response",
+    "Express",
+    "Http",
+    "Nodejs"
+  ],
+  "author": "Devesh Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dkrockcom/node-http-context/issues"
+  },
+  "homepage": "https://github.com/dkrockcom/node-http-context",
+  "dependencies": {
+    "cls-hooked": "^4.2.2"
+  }
+}
