@@ -1,6 +1,6 @@
 {
   "name": "node-http-context",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get HttpContext from anywhere",
   "main": "index.js",
   "repository": {

@@ -4,7 +4,7 @@ class HttpContext {
     /**
      * @param {Object} app - Express application instance.
      */
-    static Initilize(app) {
+    static Initialize(app) {
         if (app) {
             app.use(Util.middleware);
             app.use((req, res, next) => {

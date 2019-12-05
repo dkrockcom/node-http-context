@@ -11,7 +11,7 @@ const HttpContext = require('node-http-context');
 
 const app = express();
 // Initialize Httpcontext middleware service
-HttpContext.Initilize(app);
+HttpContext.Initialize(app);
 // After initialize the httpcontext we can get httpcontext anywhere
 ```
 
